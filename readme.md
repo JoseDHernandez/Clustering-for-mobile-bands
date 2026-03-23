@@ -23,4 +23,4 @@ docker build -t jupyter-ml .
 docker run -p 8888:8888 -v ${pwd}:/home/jovyan/work jupyter-ml
 ```
 
-Con lo anterior ejecutaras la imagen de Jupyter, para ver el contenido ve al enlace que se muestra en la terminal o ve a (http://127.0.0.1:8888/lab/tree/work/Redes_moviles.ipynb)[http://127.0.0.1:8888/lab/tree/work/Redes_moviles.ipynb]
+Con lo anterior ejecutaras la imagen de Jupyter, para ver el contenido ve al enlace que se muestra en la terminal o [ingresa a este atajo](http://127.0.0.1:8888/lab/tree/work/Redes_moviles.ipynb)
